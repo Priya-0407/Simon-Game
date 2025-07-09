@@ -19,7 +19,9 @@ export default function SimonGame() {
     };
     window.addEventListener("keydown", handleKeyPress);
     return () => window.removeEventListener("keydown", handleKeyPress);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [started]);
+
 
   const nextSequence = () => {
     const randomColor = colors[Math.floor(Math.random() * 4)];
