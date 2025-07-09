@@ -3,7 +3,7 @@
 An interactive memory game inspired by the classic **Simon Says**, built using **React.js**.  
 Test your memory by repeating the sequence of flashing colored buttons that grows with each level.
 
-![screenshot](Screenshot/SimonGame)
+![screenshot](Screenshot/SimonGame.png)
 
 ---
 
