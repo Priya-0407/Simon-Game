@@ -1,0 +1,105 @@
+/* Base Layout */
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Game Wrapper */
+.game-container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 25px #00ffcc;
+  max-width: 500px;
+  margin: auto;
+  border: 2px solid #00ffcc;
+}
+
+/* Headings */
+.title {
+  font-size: 3rem;
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+/* Button Grid */
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.line-one,
+.line-two {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Game Buttons */
+.btn {
+  height: 120px;
+  width: 120px;
+  border-radius: 20%;
+  border: 3px solid #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s;
+  box-shadow: 0 0 10px #ffffff40;
+}
+
+/* Button Colors with Glow */
+.red {
+  background-color: #ff4d4d;
+  box-shadow: 0 0 20px #ff4d4d;
+}
+
+.yellow {
+  background-color: #ffe066;
+  box-shadow: 0 0 20px #ffe066;
+}
+
+.green {
+  background-color: #2ecc71;
+  box-shadow: 0 0 20px #2ecc71;
+}
+
+.purple {
+  background-color: #9b59b6;
+  box-shadow: 0 0 20px #9b59b6;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #ffffff;
+}
+
+/* Flash Effect */
+.flash {
+  animation: flashEffect 0.3s;
+}
+
+@keyframes flashEffect {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
