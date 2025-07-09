@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# 🎮 Simon Game – React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive memory game inspired by the classic **Simon Says**, built using **React.js**.  
+Test your memory by repeating the sequence of flashing colored buttons that grows with each level.
 
-## Available Scripts
+![screenshot](Screenshot/SimonGame)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🧠 **Dynamic gameplay** with progressive difficulty
+- ⚡ **Animated button flashes** for visual feedback
+- 🎨 **Dark-themed arcade-style UI** with neon effects
+- 🔁 **Auto-restart and reset** functionality
+- 📱 **Responsive** layout (desktop + mobile)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js** (Functional components + Hooks)
+- **CSS3** for modern styling and animation
+- **Vanilla JS logic** adapted into a React environment
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+src/
+├── SimonGame.js # Main game component
+├── SimonGame.css # Game styles (dark UI)
+├── App.js # Root component
+├── index.js # Entry point
+└── ...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎮 How to Play
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Open the game and **press any key** to start.
+2. **Watch the sequence** of button flashes.
+3. **Repeat the sequence** by clicking the same buttons in order.
+4. Each level adds a new button to the sequence.
+5. If you make a mistake, the game resets!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Getting Started Locally
 
-## Learn More
+```bash
+# Clone the repository
+git clone https://github.com/your-username/simon-game-react.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Navigate into the project folder
+cd simon-game-react
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install dependencies
+npm install
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start the development server
+npm start
